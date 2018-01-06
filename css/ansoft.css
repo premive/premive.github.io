@@ -1,0 +1,112 @@
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+@media (min-width: 768px) { 
+    .navbar-custom {
+        padding: 20px 40px;
+        transition: padding 200ms linear;
+    }
+    .home {
+        padding-top: 90px;
+    }
+    .home .jumbotron .container {
+        width: 50%;
+        height: 50%;
+    }
+    .navbar-scroll {
+        padding: 5px 50px;
+        transition: padding 200ms linear;
+    }
+}
+
+.navbar-custom {
+    /* background-color: rgba(255, 255, 255, 0.7) !important; */
+    background-color: #fff !important;
+    border-bottom: 2px solid #F6F6F6 !important;
+}
+
+.navbar-custom .navbar-collapse .navbar-nav a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.065em;
+}
+
+.home {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.home .jumbotron {
+    height: 100vh;
+    color: #6a6969;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+.home .jumbotron .container {
+    height: 300px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.about {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-top: 100vh;
+    z-index: 1;
+    background-color: #f6f6f6;
+}
+
+.about h3 {
+    color: #6a6969;
+    font-weight: bold
+}
+
+.about h5 {
+    color: #6a6969;
+    font-weight: bold
+}
+
+.about .row {
+    margin-top: 20px;
+}
+
+.about .row .fa {
+    color: #6a6969;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.about .row .item {
+    border-radius: 7px;
+    background-color: white;
+    padding: 30px 10px;
+    margin-bottom: 10px;
+}
+
+.work {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.work .container-fluid, .work .item {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.work .item {
+    display: inline-block;
+    float: none;
+}
+
+.work .scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+}
